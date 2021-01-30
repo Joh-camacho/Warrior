@@ -1,0 +1,32 @@
+EventClosed: '&cEvento &a&lWARRIOR &cesta fechado!'
+EventStarting:
+- ' '
+- "&e&l » EVENTO WARRIOR INICIADO"
+- "&e&l » ENTRE DIGITANDO &f&l/WARRIOR"
+- "&e&l » TEMPO RESTANTE: &f{tempo}"
+- "&e&l » PARTICIPANTES: &f{participantes}"
+- ' '
+EventStarted:
+- ' '
+- "&e&l » PORTAS FECHADAS PARA O EVENTO"
+- "&e&l » VEJA O EVENTO NO &a&l/WARRIOR CAMAROTE"
+- "&e&l » PARTICIPANTES: &f{participantes}"
+- ' '
+EventFinished:
+- ' '
+- "&e&l » {winner} &e&lGANHOU O EVENTO &a&lWARRIOR &e&lCOM &a&l{kills} &e&lKILL(S)"
+- ' '
+- "&e&l » PREMIOS: &f&l5.000 Cash &e&l+ &f&l$100B &e&l+ &f&lTag &eWarrior"
+- ' '
+InsufficientPlayers:
+- ' '
+- "&e&l » EVENTO &a&lWARRIOR &e&lFINALIZADO POR FALTA DE JOGADORES"
+- ' '
+TimeInvincibility: '&cInvencibilidade acabando em &a{tempo}'
+TimeGame: '&eTempo: &a{tempo}   |   &eParticipantes: &a{participantes}'
+AlreadyPlaying: '&cVoce ja esta no evento &a&lWARRIOR'
+InvNotEmpty: '&cSeu inventario precisa estar vazio para entrar no evento.'
+EventFull: '&cO evento &a&lWARRIOR &cesta lotado!'
+JoinEvent: '&e{player} &eentrou no evento (&a{participantes}&e/&a{max_players}&e)'
+LeftEvent: '&cVoce saiu do evento &a&lWARRIOR.'
+NotPlaying: '&cVoce nao esta participando do evento!'

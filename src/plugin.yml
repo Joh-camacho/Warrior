@@ -1,0 +1,10 @@
+name: IG-Warrior
+version: 1.0
+main: br.com.zluck.Warrior
+author: zLuck
+softdepend: [Legendchat]
+
+commands:
+  warrior:
+      description: Warrior main command.
+      aliases: wr

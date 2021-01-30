@@ -1,0 +1,12 @@
+Timers:
+  Starting:
+    Announcements: 2
+    Delay: 10
+  Invincibility: 15
+  Finishing: 10
+MinPlayers: 2
+MaxPlayers: 50
+TagChat: '&5[Warrior] '
+Winner: ''
+RewardWinner:
+  - eco give {winner} 100000
