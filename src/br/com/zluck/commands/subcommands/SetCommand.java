@@ -6,7 +6,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 import br.com.zluck.Warrior;
-import br.com.zluck.managers.location.Location;
+import br.com.zluck.managers.location.LocationConstructor;
 import br.com.zluck.managers.location.LocationManager;
 import br.com.zluck.managers.location.LocationManager.LocationType;
 import br.com.zluck.utils.Utils;
@@ -20,7 +20,7 @@ public class SetCommand extends SubCommand {
 	@Override
 	protected void execute() {
 		Player player = (Player) sender;
-		Location location = new Location(player.getLocation());
+		LocationConstructor location = new LocationConstructor(player.getLocation());
 
 		try {
 			LocationType locationType = LocationType.valueOf(args[1].toUpperCase());

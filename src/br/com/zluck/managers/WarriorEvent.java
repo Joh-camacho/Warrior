@@ -23,7 +23,7 @@ public class WarriorEvent {
 	public enum StateType {
 		LOBBY, GAME, END;
 	}
-	
+
 	private List<Player> warriors;
 	private Map<Player, Integer> kills;
 	private StateType stateType;

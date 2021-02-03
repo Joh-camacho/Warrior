@@ -1,14 +1,15 @@
 package br.com.zluck.managers.location;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
 
-public class Location {
+public class LocationConstructor {
 
 	private String worldName;
 	private double x, y, z;
 	private float yaw, pitch;
 
-	public Location(String worldName, double x, double y, double z, float yaw, float pitch) {
+	public LocationConstructor(String worldName, double x, double y, double z, float yaw, float pitch) {
 		this.worldName = worldName;
 		this.x = x;
 		this.y = y;
@@ -17,7 +18,7 @@ public class Location {
 		this.pitch = pitch;
 	}
 
-	public Location(org.bukkit.Location location) {
+	public LocationConstructor(Location location) {
 		this(location.getWorld().getName(), location.getX(), location.getY(), location.getZ(), location.getYaw(),
 				location.getPitch());
 	}
@@ -46,7 +47,8 @@ public class Location {
 		return pitch;
 	}
 
-	public org.bukkit.Location getLocation() {
-		return new org.bukkit.Location(Bukkit.getWorld(worldName), x, y, z, yaw, pitch);
+	public Location getLocation() {
+		return new Location(Bukkit.getWorld(worldName), x, y, z, yaw, pitch);
 	}
+
 }

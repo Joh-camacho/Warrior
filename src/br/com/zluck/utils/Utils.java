@@ -101,11 +101,10 @@ public class Utils {
 
 		int minutes = time / 60;
 		int seconds = time % 60;
-		String disMinu = String.valueOf((minutes < 10) ? "0" : "") + minutes;
-		String disSec = String.valueOf((seconds < 10) ? "0" : "") + seconds;
-		String formattedTime = String.valueOf(disMinu) + ":" + disSec;
+		String minutesFormat = (minutes < 10) ? "0" : "" + minutes;
+		String secondsFormat = (seconds < 10) ? "0" : "" + seconds;
 
-		return formattedTime;
+		return minutesFormat + ":" + secondsFormat;
 	}
 
 }
