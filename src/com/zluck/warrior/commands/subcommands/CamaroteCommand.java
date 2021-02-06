@@ -1,12 +1,12 @@
-package br.com.zluck.commands.subcommands;
+package com.zluck.warrior.commands.subcommands;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import br.com.zluck.Warrior;
-import br.com.zluck.managers.Messages;
-import br.com.zluck.managers.location.LocationManager;
-import br.com.zluck.managers.location.LocationManager.LocationType;
+import com.zluck.warrior.Warrior;
+import com.zluck.warrior.managers.Messages;
+import com.zluck.warrior.managers.location.LocationManager;
+import com.zluck.warrior.managers.location.LocationManager.LocationType;
 
 public class CamaroteCommand extends SubCommand {
 

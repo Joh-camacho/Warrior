@@ -1,4 +1,4 @@
-package br.com.zluck.commands;
+package com.zluck.warrior.commands;
 
 import java.util.Arrays;
 import java.util.List;
@@ -9,8 +9,8 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 
-import br.com.zluck.commands.subcommands.*;
-import br.com.zluck.managers.location.LocationManager.LocationType;
+import com.zluck.warrior.commands.subcommands.*;
+import com.zluck.warrior.managers.location.LocationManager.LocationType;
 
 public class WarriorCommand implements CommandExecutor, TabCompleter {
 

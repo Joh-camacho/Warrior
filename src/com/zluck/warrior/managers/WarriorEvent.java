@@ -1,4 +1,4 @@
-package br.com.zluck.managers;
+package com.zluck.warrior.managers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,10 +13,10 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
-import br.com.zluck.Warrior;
-import br.com.zluck.managers.location.LocationManager;
-import br.com.zluck.managers.location.LocationManager.LocationType;
-import br.com.zluck.utils.Utils;
+import com.zluck.warrior.Warrior;
+import com.zluck.warrior.managers.location.LocationManager;
+import com.zluck.warrior.managers.location.LocationManager.LocationType;
+import com.zluck.warrior.utils.Utils;
 
 public class WarriorEvent {
 

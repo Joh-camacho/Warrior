@@ -1,10 +1,11 @@
-package br.com.zluck.listeners;
+package com.zluck.warrior.listeners;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
+import com.zluck.warrior.Warrior;
+
 import br.com.devpaulo.legendchat.api.events.ChatMessageEvent;
-import br.com.zluck.Warrior;
 
 public class ChatListener implements Listener {
 

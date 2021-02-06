@@ -1,4 +1,4 @@
-package br.com.zluck.managers.location;
+package com.zluck.warrior.managers.location;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Location;

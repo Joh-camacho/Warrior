@@ -1,8 +1,8 @@
-package br.com.zluck.commands.subcommands;
+package com.zluck.warrior.commands.subcommands;
 
 import org.bukkit.command.CommandSender;
 
-import br.com.zluck.Warrior;
+import com.zluck.warrior.Warrior;
 
 public class PararCommand extends SubCommand {
 

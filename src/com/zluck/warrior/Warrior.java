@@ -1,14 +1,14 @@
-package br.com.zluck;
+package com.zluck.warrior;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import br.com.zluck.commands.WarriorCommand;
-import br.com.zluck.listeners.ChatListener;
-import br.com.zluck.listeners.DamageListener;
-import br.com.zluck.listeners.DeathListener;
-import br.com.zluck.listeners.QuitListener;
-import br.com.zluck.managers.Messages;
-import br.com.zluck.managers.WarriorEvent;
+import com.zluck.warrior.commands.WarriorCommand;
+import com.zluck.warrior.listeners.ChatListener;
+import com.zluck.warrior.listeners.DamageListener;
+import com.zluck.warrior.listeners.DeathListener;
+import com.zluck.warrior.listeners.QuitListener;
+import com.zluck.warrior.managers.Messages;
+import com.zluck.warrior.managers.WarriorEvent;
 
 /**
  * 

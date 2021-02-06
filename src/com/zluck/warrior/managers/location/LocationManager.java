@@ -1,4 +1,4 @@
-package br.com.zluck.managers.location;
+package com.zluck.warrior.managers.location;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,7 @@ import java.util.List;
 import org.bukkit.Location;
 
 import com.google.gson.Gson;
-
-import br.com.zluck.Warrior;
+import com.zluck.warrior.Warrior;
 
 public class LocationManager {
 

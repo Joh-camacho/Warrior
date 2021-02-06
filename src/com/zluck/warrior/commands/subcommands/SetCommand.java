@@ -1,15 +1,15 @@
-package br.com.zluck.commands.subcommands;
+package com.zluck.warrior.commands.subcommands;
 
 import java.util.List;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import br.com.zluck.Warrior;
-import br.com.zluck.managers.location.LocationConstructor;
-import br.com.zluck.managers.location.LocationManager;
-import br.com.zluck.managers.location.LocationManager.LocationType;
-import br.com.zluck.utils.Utils;
+import com.zluck.warrior.Warrior;
+import com.zluck.warrior.managers.location.LocationConstructor;
+import com.zluck.warrior.managers.location.LocationManager;
+import com.zluck.warrior.managers.location.LocationManager.LocationType;
+import com.zluck.warrior.utils.Utils;
 
 public class SetCommand extends SubCommand {
 

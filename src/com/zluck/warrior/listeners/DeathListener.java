@@ -1,4 +1,4 @@
-package br.com.zluck.listeners;
+package com.zluck.warrior.listeners;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -7,9 +7,9 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.player.PlayerRespawnEvent;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import br.com.zluck.Warrior;
-import br.com.zluck.managers.location.LocationManager;
-import br.com.zluck.managers.location.LocationManager.LocationType;
+import com.zluck.warrior.Warrior;
+import com.zluck.warrior.managers.location.LocationManager;
+import com.zluck.warrior.managers.location.LocationManager.LocationType;
 
 public class DeathListener implements Listener {
 

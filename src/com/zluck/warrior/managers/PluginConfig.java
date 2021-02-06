@@ -1,4 +1,4 @@
-package br.com.zluck.managers;
+package com.zluck.warrior.managers;
 
 import org.bukkit.configuration.file.*;
 import org.bukkit.plugin.*;

@@ -1,4 +1,4 @@
-package br.com.zluck.commands.subcommands;
+package com.zluck.warrior.commands.subcommands;
 
 import org.bukkit.command.CommandSender;
 

@@ -1,6 +1,6 @@
 name: IG-Warrior
 version: 1.0
-main: br.com.zluck.Warrior
+main: com.zluck.warrior.Warrior
 author: zLuck
 softdepend: [Legendchat]
 

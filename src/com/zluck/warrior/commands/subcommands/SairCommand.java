@@ -1,9 +1,9 @@
-package br.com.zluck.commands.subcommands;
+package com.zluck.warrior.commands.subcommands;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import br.com.zluck.Warrior;
+import com.zluck.warrior.Warrior;
 
 public class SairCommand extends SubCommand {
 
