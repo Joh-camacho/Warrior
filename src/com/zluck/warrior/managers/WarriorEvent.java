@@ -166,9 +166,9 @@ public class WarriorEvent {
 			player.sendMessage(Warrior.getInstance().getMessagesService().getMessage(Messages.NOT_PLAYING));
 			return;
 		}
-		
+
 		quitWarrior(player);
-		
+
 		player.teleport(LocationManager.getLocation(LocationType.SAIDA));
 		player.sendMessage(Warrior.getInstance().getMessagesService().getMessage(Messages.LEFT_EVENT));
 	}
@@ -181,6 +181,9 @@ public class WarriorEvent {
 	}
 
 	public void quitWarrior(Player player) {
+		if (!isWarrior(player))
+			return;
+
 		Utils.clearPlayer(player);
 		removeWarrior(player);
 		checkWinner();
